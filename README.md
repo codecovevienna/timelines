@@ -56,7 +56,10 @@ Check it out on the [web](https://chulwoo.dev/timelines/) or look at the [source
 Add this to your package's pubspec.yaml file:
 ``` yaml
 dependencies:
-  timelines: ^[latest_version]
+  timelines:
+    git:
+      url: https://github.com/codecovevienna/timelines
+      ref: main  # Use the branch where you made the changes
 ```
 
 #### 2. Install it
